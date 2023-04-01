@@ -43,7 +43,7 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
  *
  * Return: 1 if c is a digit, 0 otherwise
  */
-int is_dogot(char c)
+int is_digit(char c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
