@@ -90,7 +90,8 @@ int print_octal(va_list types, char buffer[], int flags, int width, int precisio
  */
 int print_hexadecimal(va_list types, char buffer[], int flags, int width, int precision, int size)
 {
-	return (print_hexa(types, "0123456789abcdef", buffer, flags, 'x', width, precision, size));
+	return (print_hexa(types, "0123456789abcdef", buffer,
+				flags, 'x', width, precision, size));
 }
 
 /*print unsigned number in upper hexadecimal*/
